@@ -1,5 +1,5 @@
 
-void	ft_puchar(char c)
+void	ft_puchar(char s)
 {
-	write(1, &c, 1);
+	write(1, &s, 1);
 }
