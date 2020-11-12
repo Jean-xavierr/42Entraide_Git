@@ -4,14 +4,14 @@
 
 
 ## What is [Git](https://git-scm.com/) 
----
+
 __Git__ est un système de _controle de versionning_.
 Cela permet aux développeurs de garder une trace de ce qui a été fait et de revenir à une phase précédente s’ils décident de revenir sur certains des changements qu’ils ont apportés.
 
 __Git__ est un projet open source, il a éteé développé en 2005 par __Linus Torvalds__, auteur du noyau __Linux__.
 
 ## La différence entre [Git](https://git-scm.com/) et [GitHub](https://github.com/)
----
+
 __GitHub__ facilite la collaboration en utilisant __git__. C’est une plateforme qui peut contenir des dépôts de code dans un stockage dans le cloud afin que plusieurs développeurs puissent travailler sur un même projet et voir les modifications des autres en temps réel.
 Il comprend également _des fonctions d’organisation et de gestion de projets_. Vous pouvez attribuer des tâches à des individus ou à des groupes, définir les autorisations et les rôles des collaborateurs et utiliser la modération des commentaires pour que chacun reste concentré sur sa tâche.
 
@@ -23,8 +23,8 @@ __Git__ est un logiciel qui permet aux développeurs de sauvegarder leur projet 
 __GitHub est une plateforme web qui intègre les fonctionnalités de contrôle de version de git__ afin de pouvoir les utiliser en collaboration. Il comprend également des fonctions de gestion de projets et d’équipes, ainsi que des possibilités de mise en réseau et de codage social.
 
 
-### Command 
-----
+## Basic Command 
+
 
 __git config__
  ```
@@ -243,7 +243,7 @@ ___Vous voulez en savoir plus :___
 
 
 ## GitHunt
----
+
 
 [Githunt](https://chrome.google.com/webstore/detail/githunt/khpcnaokfebphakjgdgpinmglconplhp?hl=en) est une extension pour Chrome qui affiche les dépôts Github qui font le buzz en ce moment.
 Vous pouvez aussi retrouver une version web (https://kamranahmed.info/githunt/)
@@ -251,4 +251,5 @@ Vous pouvez aussi retrouver une version web (https://kamranahmed.info/githunt/)
 ## Source 
 
 [Tips Git EN](https://git-scm.com/book/en/v2)
+
 [Tips Git FR](https://git-scm.com/book/fr/v2)
