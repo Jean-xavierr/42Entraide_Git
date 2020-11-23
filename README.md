@@ -125,11 +125,26 @@ git reset --hard HEAD
 
 ## Branch 
 
-Lorsque l'on commence un nouveau projet on se retrouve sur un branch `master` ou `main`. Cette branche servira à la version __production__ de notre projet. On va donc souvent commencer par créer une nouvelle branche servant au développement (on peut la nommer dev ou utiliser un numéro de version).
+Les branches permettent une meilleur gestion des versions, travailler plus facilement à plusieurs.
+Travailler en équipe, c’est bien mais chacun a besoin de son propre espace. Lorsqu’on développe une nouvelle fonctionnalité, c’est essentiel de s’isoler des modifications non-liées à la fonctionnalité sur laquelle on travaille. Pourquoi ? Parce que lorsqu’on développe, notre code peut engendrer des régressions. Et si l’on travaille tous sur la même branche, on aura du mal à trouver l’origine de la régression. Est-ce suite à notre développement, ou à celui d’un collègue ?
+Ceci peut nous faire perdre beaucoup de temps.
+
+Si votre équipe ne suis pas une méthodologie de travail pré-déterminée, on se retrouve rapidement avec des conflits à chaque commit/merge ou presque, des pertes de données et un historique fouillis.
+
+Lorsque l'on commence un nouveau projet on se retrouve sur un branch `master` ou `main`. Cette branche servira à la version __production__ de notre projet. On va donc souvent commencer par créer une nouvelle branche servant au développement.
+
+`La branche master` est la branche production. Il est donc logique que l'on ne puisse y `push` nos modifications directement. Sur cette branche ce trouve un coode stable, testé et validé.
+
+`La branche develop` centralise toutes les nouvelles fonctionnalités qui seront livrées dans la prochaine version. Ici il va falloir se forcer à ne pas y faire de modifications directement. Code de la prochaine version de l’application. Une fois que le développement d’une fonctionnalité (feature) est fini, le code est fusionné sur cette branche.
+
+`Les branches features` chaque branche travaillera sur un aspect du projet (parsing, système, interface, algorimth ....), code en cours de développement qui implémente une fonctionnalité à embarquer dans la prochaine version de l’application.
+
+Qu’est-ce que le merge d’une branche feature veut dire ? Lorsqu’on `merge une branche feature` sur la branche `develop`, on indique que la fonctionnalité est terminée et prête pour rejoindre la prochaine version de l'application. Qu’est-ce que « prête » veut dire ? Cela dépend de la définition de terminé accordé sur chaque projet.
 
 
-_Voici un exemple réaliser par mes soins, d'une bonne utilisations des branches :_
+_Voici un exemple réaliser par mes soins, d'une bonne utilisations des branches (selon mon point de vue) :_
 ![](https://zupimages.net/up/20/46/rftq.png)
+
 
 ### command
 ```bash
@@ -241,6 +256,17 @@ ___Vous voulez en savoir plus :___
 
 ## CI (continue integration)
 
+[En cours de construction]
+
+Dans n’importe quel projet, il est recommandé d’avoir une plateforme d’intégration continue. Ceci permet d’intégrer automatiquement les modifications réalisées sur le code et de notifier les développeurs lorsqu’un test ne passe plus. 
+
+![](https://user.oc-static.com/upload/2019/07/03/15621470017041_16.jpg)
+
+## Étiquetez votre projet avec des badges
+
+[En cours de construction]
+
+Les badges permettent de garder le projet à jour et indiquent une certaine qualité. Les badges peuvent être utilisés pour tout un tas de choses.
 
 ## GitHunt
 
