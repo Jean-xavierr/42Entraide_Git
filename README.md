@@ -8,7 +8,7 @@
 __Git__ est un système de _controle de versionning_.
 Cela permet aux développeurs de garder une trace de ce qui a été fait et de revenir à une phase précédente s’ils décident de revenir sur certains des changements qu’ils ont apportés.
 
-__Git__ est un projet open source, il a éteé développé en 2005 par __Linus Torvalds__, auteur du noyau __Linux__.
+__Git__ est un projet open source, il a été développé en 2005 par __Linus Torvalds__, auteur du noyau __Linux__.
 
 ## La différence entre [Git](https://git-scm.com/) et [GitHub](https://github.com/)
 
@@ -40,9 +40,9 @@ exemple : git add exemple.txt
 ajoute le fichier nommé exemple.txt dans le répertoire local de l’index:
 ```
  
-__git restore__
+__git rm --cached__
 ```
-git restore --staged <fichier>
+git rm --cached <fichier>
 Enlever un fichier de l'index du répertoir
 ```
 
